@@ -9,7 +9,7 @@ export default class Building {
   }
 
   set sqft(value) {
-    return (this._sqft = value);
+    (this._sqft = value);
   }
 
   #evacuationWarningMessage() {
